@@ -1,0 +1,71 @@
+html {
+    font-family: 'Indie Flower';
+    font-size: 15px;
+}
+
+body {
+    background-color: red;
+    font-size: 25px;
+}
+
+p {
+    color: white;
+}
+
+#paragrafo-id {
+    font-size: 50px;
+}
+
+/* ul li#primero {
+    color: white;
+} */
+
+div p span {
+    color: yellow;
+}
+
+.pepito {
+    background-color: aquamarine;
+    color: blueviolet;
+    font-size: 30px;
+}
+
+.pepito::before {
+    content: "&";
+}
+
+p:hover {
+    background-color: chartreuse;
+}
+
+.perez {
+    border: 1px solid white;
+}
+
+[data~="prueba2"] {
+    background-color: blue
+}
+
+[data~="prueba"] {
+    width: 100%;
+    height: 200px;
+    border: 1px solid black;
+    background-color: white;
+}
+
+/* ul li:nth-last-child(4):hover {
+    font-size: 50px;
+} */
+
+/* div[data], ul#lista {
+    background-color: chartreuse;
+} */
+
+div#contenedor > p {
+    color: black;
+    background-color: white;
+}
+
+ul#hermano-mayor + ul {
+    background-color: white;
+}
